@@ -27,7 +27,7 @@ import installationConstants from '../ui/public/conf/installationConstants';
  * @property {() => [string]} ids
  */
 
-const API_PORT = process.env.API_PORT || '8000';
+const API_PORT = process.env.API_PORT || '7210';
 
 /**
  * @typedef {{ zoe: ZoeService, board: Board, spawner, wallet, uploads, http }} Home
@@ -151,7 +151,7 @@ export default async function deployApi(
   const invitationBrand = await invitationBrandP;
   const INVITE_BRAND_BOARD_ID = await E(board).getId(invitationBrand);
 
-  const API_URL = process.env.API_URL || `http://127.0.0.1:${API_PORT || 8000}`;
+  const API_URL = process.env.API_URL || `http://127.0.0.1:${API_PORT || 7210}`;
 
   // Re-save the constants somewhere where the UI and api can find it.
   const dappConstants = {
@@ -163,7 +163,7 @@ export default async function deployApi(
       Token: TOKEN_BRAND_BOARD_ID,
     },
     issuerBoardIds: { Token: TOKEN_ISSUER_BOARD_ID },
-    BRIDGE_URL: 'http://127.0.0.1:8000',
+    BRIDGE_URL: 'http://127.0.0.1:7210',
     API_URL,
   };
   const defaultsFile = pathResolve(`../ui/public/conf/defaults.js`);
