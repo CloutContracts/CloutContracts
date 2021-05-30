@@ -9,6 +9,6 @@ export default {
   "issuerBoardIds": {
     "Token": "605437304"
   },
-  "BRIDGE_URL": "http://127.0.0.1:8000",
-  "API_URL": "http://127.0.0.1:8000"
+  "BRIDGE_URL": "http://127.0.0.1:7210",
+  "API_URL": "http://127.0.0.1:7210"
 };
