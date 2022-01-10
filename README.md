@@ -2,7 +2,7 @@
 
 ![CCSLOGO](https://raw.githubusercontent.com/CloutContracts/cloutcontracts.github.io/main/assets/images/c-128x128.png)
 
-Insert about section here
+This is an Agoric DAPP implementation. This project is under development and lots of code needs to be updated/pushed.
 
 *This includes the code of Agoric's Fungible Faucet DAPP. This needs massive updating.*
 
