@@ -1,7 +1,6 @@
 {
-  "name": "CloutContracts-contract",
+  "name": "cloutcontracts-contract",
   "version": "0.1.0",
-  "private": true,
   "description": "Contract for the Agoric Dapp",
   "scripts": {
     "build": "exit 0",
