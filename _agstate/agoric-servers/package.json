@@ -1,15 +1,16 @@
 {
   "name": "cloutcontracts-agservers",
-  "version": "0.0.1",
-  "description": "Agoric server instances for dapp",
+  "version": "0.0.2",
+  "description": "CCS Agoric server instances",
   "scripts": {
     "build": "exit 0",
     "test": "exit 0",
     "lint-check": "exit 0",
     "lint-fix": "exit 0"
   },
-  "author": "Agoric",
+  "author": "CloutContracts",
   "license": "Apache-2.0",
+  "keywords": ["DAPP", "SDK", "Agoric", "rollups", "Crypto"],
   "dependencies": {
     "@agoric/cosmic-swingset": "*"
   }
