@@ -1,6 +1,6 @@
 {
   "name": "cloutcontracts-contract",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Contract for the Agoric Dapp",
   "scripts": {
     "build": "exit 0",
@@ -42,17 +42,9 @@
     ],
     "timeout": "10m"
   },
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Agoric/agoric"
-  },
-  "author": "Agoric",
+  "keywords": ["DAPP", "SDK", "Agoric", "rollups", "Crypto"],
+  "author": "CloutContracts",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/Agoric/agoric/issues"
-  },
-  "homepage": "https://github.com/Agoric/agoric#readme",
   "eslintConfig": {
     "extends": [
       "@agoric"
