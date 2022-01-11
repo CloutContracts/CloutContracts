@@ -1,7 +1,7 @@
 {
   "name": "agccsapi",
-  "version": "0.1.0",
-  "description": "Agoric Dapp web server handler",
+  "version": "0.2.0",
+  "description": "CCS Agoric Dapp web handler",
   "scripts": {
     "build": "exit 0",
     "test": "exit 0",
@@ -36,15 +36,7 @@
     "trailingComma": "all",
     "singleQuote": true
   },
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Agoric/agoric"
-  },
-  "author": "Agoric",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/Agoric/agoric/issues"
-  },
-  "homepage": "https://github.com/Agoric/agoric#readme"
+  "keywords": ["DAPP", "SDK", "Agoric", "rollups", "Crypto"],
+  "author": "CloutContracts",
+  "license": "Apache-2.0"
 }
